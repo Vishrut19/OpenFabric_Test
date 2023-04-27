@@ -2,7 +2,7 @@ const express = require('express');
 const {MongoClient} = require('mongodb');
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-const checkJwt = require('express-jwt');
+const checkJwt = require('express-jwt')
 
 function apiRouter() {
   const router = express.Router();

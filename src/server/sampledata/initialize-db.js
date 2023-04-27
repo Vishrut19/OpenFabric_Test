@@ -26,7 +26,7 @@ async function initializeDBRecords(collectionName, data){
     console.log(`${result.insertedCount} new listing(s) created with the following id(s):`);
     console.log(result.insertedIds);
     client.close
-    console.log("Clossing Connections");
+    console.log("Closing Connections");
 }
 
 initializeDBRecords('Users', users);
